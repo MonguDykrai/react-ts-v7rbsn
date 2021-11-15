@@ -17,7 +17,7 @@ const User: React.FC = () => {
     manual: true,
     // pollingInterval: 3000,
     onSuccess: (result, params) => {
-      console.log(result, params);
+      console.log(result, params); // false hello world
       const [userInfo] = result;
       setUserInfo(userInfo);
     },
